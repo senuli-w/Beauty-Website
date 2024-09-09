@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-family: "Noto Serif";
+    font-size: 2rem;
+    margin: 1%;
+    background: linear-gradient(to right, #eec440, #fffa8a, #ddac17, #ffff95);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  section {
+    text-align: center;
+  }
+  
+  form {
+    width: fit-content;
+    margin: 20px auto;
+  }
+  
+  #form-items {
+    margin: 12% auto;
+  }
+  
+  .form-btn {
+    width: 30%;
+    margin: 0 2%;
+  }
+  
+  #buttons {
+    padding: 0;
+    /* width: fit-content; */
+    margin: 5px auto;
+  }
+  

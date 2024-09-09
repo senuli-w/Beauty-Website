@@ -1,0 +1,248 @@
+.rotate {
+  color: #ddac17;
+  font-size: 14px;
+  font-family: sans-serif;
+  display: block;
+  position: fixed;
+  top: 92.2vh;
+  transform: rotateZ(90deg);
+  margin-left: -20px;
+}
+
+.rotate:hover {
+  color: #ffff95;
+}
+
+#welcome p,
+#try-on p,
+#gallery p,
+#products p,
+h2,
+h3 {
+  font-family: "Noto Serif", sans-serif;
+  font-weight: 450;
+  background: linear-gradient(to right, #eec440, #fffa8a, #ddac17, #ffff95);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+main {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+main section {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  color: gold;
+  font-family: "Urbanist";
+  font-weight: 200;
+}
+
+#w-content img {
+  height: 75vh;
+  display: block;
+  margin: auto;
+  margin-top: 5.8%;
+  /* margin-top: 11.8%; */
+}
+
+#w-content {
+  /* height: 100vh; */
+  display: flex;
+}
+
+#w-content p {
+  font-size: 1.025rem;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-left: 0.5%;
+}
+
+#try-on {
+  /* height: 70vh; */
+  display: flex;
+  text-align: center;
+}
+
+#try-on div {
+  margin: 15% 4%;
+}
+
+#try-on h2,
+#gallery h2,
+#products h2,
+#reviews h2 {
+  font-size: 3.5rem;
+  margin: 2%;
+}
+
+#try-on h3,
+#gallery h3 {
+  font-size: 1.6rem;
+  margin: 2% auto 4% auto;
+}
+
+#try-on img {
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  height: 70vh;
+}
+
+#gallery {
+  padding: 2% 0 0 0;
+  text-align: center;
+  height: fit-content;
+}
+
+#gallery div {
+  width: 92%;
+  /* height: 21rem; */
+  margin: 2% auto 1% auto;
+}
+
+#gallery img {
+  border-radius: 10px;
+  margin: 0.5rem 0.25rem 0 0.25rem;
+  width: 15.5rem;
+  height: 15.5rem;
+  object-fit: cover;
+  box-shadow: 4px 8px 16px rgba(189, 183, 107, 0.319);
+}
+
+#products {
+  font-family: "Noto Serif", sans-serif;
+  font-weight: 300;
+  height: fit-content;
+  margin: 6% auto 7% auto;
+  padding-top: 6%;
+  width: 70%;
+  text-align: center;
+}
+
+#products ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#products img {
+  margin: 10% auto;
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#products .name {
+  width: 170px;
+  margin: auto;
+}
+
+#products .price {
+  margin: auto;
+}
+
+#products div {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#reviews {
+  padding-top: 0.8rem;
+  text-align: center;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  margin: 10px auto 4px auto;
+  padding: 0;
+  padding-bottom: 15px;
+}
+
+#cards article {
+  width: 320px;
+  margin: 0 15px;
+  background-color: rgba(221, 172, 23, 0.355);
+  border-radius: 5px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cards article:hover {
+  box-shadow: 0 0 1px rgba(221, 172, 23, 0.6), 0 0 2px rgba(221, 172, 23, 0.6),
+    0 0 4px rgba(221, 172, 23, 0.6), 0 0 6px rgba(221, 172, 23, 0.6),
+    0 0 8px rgba(221, 172, 23, 0.6);
+}
+
+article div {
+  width: 280px;
+  height: 270px;
+  border-radius: 5px;
+  background-color: rgba(255, 254, 206, 0.128);
+  /* background-image: url(images/dps/yellow.jpg); */
+  margin: 15px;
+  font-family: sans-serif;
+  color: black;
+}
+
+article div:hover {
+  background-color: rgba(255, 254, 206, 0.323);
+}
+
+#reviews div span {
+  margin-left: -75%;
+  font-size: 100px;
+}
+
+blockquote {
+  margin: 0 auto;
+  margin-top: -20%;
+  text-align: justify;
+  width: 80%;
+}
+
+#reviews img {
+  display: inline-block;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: 6px solid rgb(30, 20, 20);
+  object-fit: cover;
+}
+
+.r-name {
+  color: rgb(30, 20, 20);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.r-stars {
+  color: black;
+  font-size: 20px;
+  margin: 0;
+}
+
+.r-stars:hover {
+  text-shadow: 0 0 4px rgba(221, 172, 23, 0.7), 0 0 8px rgba(221, 172, 23, 0.7),
+    0 0 16px rgba(221, 172, 23, 0.7), 0 0 32px rgba(221, 172, 23, 0.7),
+    0 0 64px rgba(221, 172, 23, 0.7);
+  text-wrap: 0.2px solid black;
+}
+
+.r-stars em {
+  color: #d7a614;
+  text-shadow: 0 0 4px rgba(221, 172, 23, 0.3), 0 0 8px rgba(221, 172, 23, 0.3),
+    0 0 16px rgba(221, 172, 23, 0.3), 0 0 32px rgba(221, 172, 23, 0.3),
+    0 0 64px rgba(221, 172, 23, 0.3);
+}

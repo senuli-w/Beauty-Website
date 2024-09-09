@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: "Urbanist";
+    color: silver;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  section {
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: -130px;
+    background-color: rgba(192, 192, 192, 0.218);
+    text-align: center;
+  }
+  
+  header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  img {
+    display: inline-block;
+    margin: 40px;
+    border-radius: 90px;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    box-shadow: 0 0 1px rgba(244, 199, 103, 0.2), 0 0 2px rgba(244, 199, 103, 0.2),
+      0 0 4px rgba(244, 199, 103, 0.2), 0 0 8px rgba(244, 199, 103, 0.2),
+      0 0 16px rgba(244, 199, 103, 0.2);
+  }
+  
+  .details p {
+    margin: 10px auto;
+  }
+  
+  h2,
+  .details {
+    background: linear-gradient(to right, #797055, #afad7e, #bb9f4c, #fdfdb2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 500;
+  }
+  
+  a {
+    display: inline-block;
+    margin: 10px auto;
+    color: silver;
+    border: 1px solid rgba(192, 192, 192, 0.39);
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: rgba(192, 192, 192, 0.39);
+  }
+  
+  .page {
+    width: 50%;
+    margin: 60px auto;
+  }
+  
+  .section {
+    padding-bottom: 30px;
+  }
+  .details {
+    padding-top: 100px;
+  }
+  

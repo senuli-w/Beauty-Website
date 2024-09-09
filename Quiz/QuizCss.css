@@ -1,0 +1,47 @@
+h3 {
+    background: linear-gradient(to right, #eec440, #ffff95);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 350;
+    font-family: "Noto Serif", serif;
+    font-size: 22px;
+    padding-top: 1%;
+    margin: 42px 0px 14px 208px;
+    /* border-top: 1px solid rgba(255, 217, 0, 0.2); */
+  }
+  
+  #quiz {
+    margin: 40px 0 20px 0;
+    padding: 1%;
+    border-bottom: 1px solid rgba(255, 217, 0, 0.2);
+  }
+  
+  #quiz h3 {
+    margin-left: 196px;
+    display: inline-block;
+  }
+  
+  #quiz p {
+    margin-left: 196px;
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    background: linear-gradient(to right, #eec440, #ffff95);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 350;
+  }
+  
+  #quiz button {
+    margin-left: 40px;
+    /* margin-top: 12px; */
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .error {
+    margin-left: 10px;
+  }
+  

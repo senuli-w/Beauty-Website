@@ -1,0 +1,40 @@
+/* Review section specific styles */
+#section01 {
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+img {
+    border-radius: 50%;
+}
+
+.all {
+    display: inline;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 25px;
+    align-items:left;
+}
+
+.rating{
+    align-items: left;
+}
+
+.star{
+    display: inline;
+    color: gold;
+}
+
+.star01{
+    display: inline;
+}
+
+

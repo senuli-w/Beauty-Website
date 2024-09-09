@@ -1,0 +1,117 @@
+.front-button {
+  background-color: gold; /* Set button background to gold */
+  color: black; /* Set button text color to black */
+  border: none; /* Remove button border */
+  width: 30px; /* Set button width */
+  height: 30px; /* Set button height */
+  font-size: 18px; /* Set button font size */
+  border-radius: 50%; /* Make button round */
+}
+
+h1 {
+    text-align: center;
+    font-family: "Noto Serif";
+    font-size: 2rem;
+    margin: 2%;
+    margin-bottom: 3%;
+    background: linear-gradient(to right, #eec440, #fffa8a, #ddac17, #ffff95);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: font-size 0.5s ease-in-out;
+    -moz-transition: font-size 0.5s ease-in-out;
+    -webkit-transition: font-size 0.5s ease-in-out;
+  }
+
+  .contain {
+    width: 45vw;
+    margin: 2% auto;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    object-fit: cover;
+  }
+  .contain div {
+    margin: 0 0.3%;
+    height: 60vh;
+    width: 10.2vw;
+    transition: 0.5s ease-in-out;
+    opacity: 0.6;
+    border-radius: 6px;
+    align-content: flex-end;
+    text-align: center;
+    font-family: "Noto Serif";
+    font-weight: 500;
+    color: transparent;
+  }
+  
+  h3 {
+    font-size: 15.5px;
+    font-weight: 800;
+  }
+  
+  .to-editor {
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
+    /* font-weight: 300; */
+    padding: 4px 14px;
+    display: inline-block;
+    margin: 4px 0;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .contain a:hover {
+    color: silver;
+  }
+  
+  .contain div:hover {
+    color: white;
+    margin: 0 0.5%;
+    margin-top: -4.5%;
+    height: 63vh;
+    width: 14vw;
+    opacity: 1;
+    box-shadow: 0 0 2px rgba(242, 217, 14, 0.4), 0 0 4px rgba(244, 202, 76, 0.4),
+      0 0 8px rgba(244, 202, 76, 0.4), 0 0 16px rgba(244, 202, 76, 0.4),
+      0 0 32px rgba(244, 202, 76, 0.4);
+  
+    .to-editor {
+      background-color: rgba(255, 246, 127, 0.442);
+      color: rgb(40, 40, 40);
+      /* text-shadow: 0 0 2px rgba(0, 0, 0, 0.4), 0 0 4px rgba(0, 0, 0, 0.4),
+        0 0 8px rgba(0, 0, 0, 0.4); */
+      /* background-color: rgba(0, 0, 0, 0.6); */
+    }
+  }
+  
+  #s1 {
+    /* width: 9.5vw; */
+    background: url("../About us/student1.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+      no-repeat 50% / cover;
+  }
+  
+  #s2 {
+    background: url("student2.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+      no-repeat 50% / cover;
+  }
+  
+  #s3 {
+    background: url("student3.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+      no-repeat 50% / cover;
+  }
+  
+  #s4 {
+    background: url("student4.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+      no-repeat 50% / cover;
+  }
+  
+  .about-des {
+    width: 64%;
+    margin: 2% auto;
+    background: linear-gradient(to right, #ffd54ba7, #fffa8a, #e6bc3f, #ffff95);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Noto Serif";
+    text-align: center;
+  }
+  

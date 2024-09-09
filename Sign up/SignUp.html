@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../SharedCSS/SharedCss.css" />
+    <link rel="stylesheet" href="../SharedCSS/formsCss.css" />
+    <link rel="stylesheet" href="../Sign up/SignUpCss.css" />
+    <script src="../Sign up/SignUpJs.js"></script>
+    <link
+      rel="website icon"
+      type="png"
+      href="../SharedCSS/Logo/main-logo.jpg"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../Main/index.html">
+          <img src="../SharedCSS/Logo/main-logo.jpg" alt="" />
+          Beauty
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../Main/index.html">Home</a></li>
+          <li><a href="../Main/index.html#try-on">Try on</a></li>
+          <li><a href="../Shop/Shop.html">Products</a></li>
+          <li><a href="../Quiz/Quiz.html">Quiz</a></li>
+          <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+          <li><a href="../Reviews/Reviews.html">Reviews</a></li>
+          <li><a href="../About us/AboutUs.html">About us</a></li>
+          <li class="active"><a href="../Sign up/SignUp.html">Sign up</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <a href="../Sign up/SignUp.html">
+          <img
+            src="../SharedCSS/Logo/profile.png"
+            alt="click here to go to the profile"
+          />
+        </a>
+        <a href="../Shop/Shop.html">
+          <img
+            src="../SharedCSS/Logo/cart.png"
+            alt="click here to go to the cart"
+          />
+        </a>
+      </div>
+    </header>
+    <section>
+      <h1>Sign up</h1>
+      <form id="signup-form" onsubmit="return verifyForm()">
+        <div id="form-items">
+          <div class="form-group">
+            <input type="text" name="name" id="name" placeholder="Name" />
+            <label class="form-label">Name <span class="error">*</span> </label>
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="Age"
+              min="6"
+            />
+            <label class="form-label">Age <span class="error">*</span> </label>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="E-Mail" />
+            <label class="form-label"
+              >E-Mail <span class="error">*</span>
+            </label>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              name="preference1"
+              id="preference1"
+              placeholder="Preferred Skin Color"
+            />
+            <label class="form-label">Preferred Skin Color </label>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              name="preference2"
+              id="preference2"
+              placeholder="Preferred Hair Type"
+            />
+            <label class="form-label">Preferred Hair Type </label>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              name="preference1"
+              id="preference1"
+              placeholder="Body Type"
+            />
+            <label class="form-label">Body Type </label>
+          </div>
+          <div id="error-msg" class="error" style="display: none">
+            Please fill out all required fields.
+          </div>
+        </div>
+        <div id="buttons">
+          <input type="reset" value="Reset" class="form-btn" />
+          <input type="submit" value="Submit" class="form-btn" />
+        </div>
+      </form>
+    </section>
+    <section id="footer">
+      <footer>
+        <div id="f-content">
+          <div id="f-col1">
+            <p><a href="../Main/index.html" id="f-topic">Beauty.com</a></p>
+            <address>
+              <a href="mailto:hello@beauty.com">hello@beauty.com</a>
+            </address>
+            <br />
+            <p>
+              123 Ramakrishna Road, <br />
+              Bambalapitiya, <br />
+              Sri Lanka
+            </p>
+            <p>123-456-7890</p>
+          </div>
+          <div id="f-col2">
+            <a href="../About us/AboutUs.html">About us</a><br />
+            <a href="../Main/index.html#try-on">Try on</a><br />
+            <a href="../Shop/Shop.html">Products</a><br />
+            <a href="../Quiz/Quiz.html">Quiz</a><br />
+            <a href="../Gallery/Gallery.html">Gallery</a><br />
+            <a href="../Reviews/reviews.html">Reviews</a><br />
+          </div>
+          <div id="f-col3">
+            <a href="../EditorsPage/Student1.html" target="_blank" class="line"
+              >Page Editor</a
+            ><br />
+            <a href="mailto:hello@beauty.com" class="line">Contact us</a><br />
+            <a href="../Sign up/SignUp.html">Join us</a><br />
+          </div>
+          <div id="f-col4">
+            <p>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="../SharedCSS/Logo/facebook.png" alt="facebook logo"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="../SharedCSS/Logo/instagram.png"
+                  alt="instagram logo"
+              /></a>
+              <a href="https://www.pinterest.com/" target="_blank"
+                ><img
+                  src="../SharedCSS/Logo/pinterest.png"
+                  alt="pinterest logo"
+              /></a>
+              <a href="https://web.whatsapp.com/" target="_blank"
+                ><img src="../SharedCSS/Logo/whatsapp.png" alt="whatsapp logo"
+              /></a>
+              <a href="../EditorsPage/Student1.html" target="_blank"
+                ><img src="../SharedCSS/Logo/pen.png" alt="page editor logo"
+              /></a>
+            </p>
+          </div>
+        </div>
+        <p id="copyrights">
+          <a href="../About us/AboutUs.html">&#169; 2024 D.O.G.S GROUP</a>
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>

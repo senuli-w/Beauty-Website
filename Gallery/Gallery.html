@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../SharedCSS/SharedCss.css" />
+    <link rel="stylesheet" href="../Gallery/GalleryCss.css" />
+    <script src="../Gallery/GalleryJs.js" defer></script>
+    <link
+      rel="website icon"
+      type="png"
+      href="../SharedCSS/Logo/main-logo.jpg"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../Main/index.html">
+          <img src="../SharedCSS/Logo/main-logo.jpg" alt="" />
+          Beauty
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../Main/index.html">Home</a></li>
+          <li><a href="../Main/index.html#try-on">Try on</a></li>
+          <li><a href="../Shop/Shop.html">Products</a></li>
+          <li><a href="../Quiz/Quiz.html">Quiz</a></li>
+          <li class="active"><a href="../Gallery/Gallery.html">Gallery</a></li>
+          <li><a href="../Reviews/Reviews.html">Reviews</a></li>
+          <li><a href="../About us/AboutUs.html">About us</a></li>
+          <li><a href="../Sign up/SignUp.html">Sign up</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <a href="../Sign up/SignUp.html">
+          <img
+            src="../SharedCSS/Logo/profile.png"
+            alt="click here to go to the profile"
+          />
+        </a>
+        <a href="../Shop/Shop.html">
+          <img
+            src="../SharedCSS/Logo/cart.png"
+            alt="click here to go to the cart"
+          />
+        </a>
+      </div>
+    </header>
+    <!-- Container for the image gallery -->
+    <h1>Gallery</h1>
+    <div class="container">
+      <div id="flex-container">
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+          <img src="../Gallery/g1.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+          <img src="../Gallery/g2.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="../Gallery/g3.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+          <img src="../Gallery/g4.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+          <img src="../Gallery/g5.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+          <img src="../Gallery/g6.jpg" style="width: 100%" />
+        </div>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../Gallery/g1.jpg"
+            style="width: 100%"
+            onclick="currentSlide(1)"
+            alt="The hairstyle 
+           in the image is an intricate updo. The stylist is meticulously arranging the hair 
+           into twists and turns, resulting in an elegant and sophisticated look. The updo appears
+            to be well-structured and suitable for special occasions or formal events."
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../Gallery/g2.jpg"
+            style="width: 100%"
+            onclick="currentSlide(2)"
+            alt="The eyeshadow is applied in a gradient manner, transitioning from purple at the outer c
+            orners to blue, green, and finally yellow towards the inner corners."
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../Gallery/g3.jpg"
+            style="width: 100%"
+            onclick="currentSlide(3)"
+            alt="The haircut in this picture is a short, layered hair style that appears voluminous and textured.
+            hair is dark at the roots and gradually becomes lighter towards the tips.
+            Short haircuts often exude an effortless elegance. This style requires minimal maintenance while still looking put-together."
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../Gallery/g4.jpg"
+            style="width: 100%"
+            onclick="currentSlide(4)"
+            alt="Sits on top of a fully-finished makeup look.
+            Applied with a brush to avoid smudging existing makeup.
+            Provides a light, final touch without altering the makeup underneath"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../Gallery/g5.jpg"
+            style="width: 100%"
+            onclick="currentSlide(5)"
+            alt="Our face packs always have creamy and rich formulations.
+            Such face packs can hydrate the skin, leaving it soft and supple.
+            They contain vitamins, antioxidants, and minerals that nourish the skin.
+            Choosing the right face pack depends on your skin type and specific needs. 
+            Whether it is for hydration, anti-aging, or brightening, a well-chosen face pack can work wonders! "
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../Gallery/g6.jpg"
+            style="width: 100%"
+            onclick="currentSlide(6)"
+            alt="This makeup look embrace a natural aesthetic.
+            It gives off an “off-duty model” vibe, effortlessly chic and fresh.
+            The simplicity of this look exudes elegance without being overly done.
+            The natural flush on the cheeks and the subtle bronzing create a healthy, sun-kissed appearance.
+            Suitable for various occasions, from casual outings to daytime events.
+            "
+          />
+        </div>
+      </div>
+    </div>
+    <section id="footer">
+      <footer>
+        <div id="f-content">
+          <div id="f-col1">
+            <p><a href="../Main/index.html" id="f-topic">Beauty.com</a></p>
+            <address>
+              <a href="mailto:hello@beauty.com">hello@beauty.com</a>
+            </address>
+            <br />
+            <p>
+              123 Ramakrishna Road, <br />
+              Bambalapitiya, <br />
+              Sri Lanka
+            </p>
+            <p>123-456-7890</p>
+          </div>
+          <div id="f-col2">
+            <a href="../About us/AboutUs.html">About us</a><br />
+            <a href="../Main/index.html#try-on">Try on</a><br />
+            <a href="../Shop/Shop.html">Products</a><br />
+            <a href="../Quiz/Quiz.html">Quiz</a><br />
+            <a href="../Gallery/Gallery.html">Gallery</a><br />
+            <a href="../Reviews/reviews.html">Reviews</a><br />
+          </div>
+          <div id="f-col3">
+            <a
+              href="../EditorsPage/Student1.html"
+              target="_blank"
+              class="line"
+              >Page Editor</a
+            ><br />
+            <a href="mailto:hello@beauty.com" class="line">Contact us</a
+            ><br />
+            <a href="../Sign up/SignUp.html">Join us</a><br />
+          </div>
+          <div id="f-col4">
+            <p>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img
+                  src="../SharedCSS/Logo/facebook.png"
+                  alt="facebook logo"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="../SharedCSS/Logo/instagram.png"
+                  alt="instagram logo"
+              /></a>
+              <a href="https://www.pinterest.com/" target="_blank"
+                ><img
+                  src="../SharedCSS/Logo/pinterest.png"
+                  alt="pinterest logo"
+              /></a>
+              <a href="https://web.whatsapp.com/" target="_blank"
+                ><img
+                  src="../SharedCSS/Logo/whatsapp.png"
+                  alt="whatsapp logo"
+              /></a>
+              <a href="../EditorsPage/Student1.html" target="_blank"
+                ><img src="../SharedCSS/Logo/pen.png" alt="page editor logo"
+              /></a>
+            </p>
+          </div>
+        </div>
+        <p id="copyrights">
+          <a href="../About us/AboutUs.html">&#169; 2024 D.O.G.S GROUP</a>
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>

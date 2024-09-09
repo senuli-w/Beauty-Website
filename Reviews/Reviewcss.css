@@ -1,0 +1,274 @@
+body {
+    background-color: black;
+    background-size: 1200px 900px;
+    size: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+#section01{
+    padding-top: 85px;
+    min-height: 500px;
+    position: relative;
+    justify-content: center; 
+    align-items: center; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,auto));   
+    align-items: center;
+    gap: 1.9rem;
+}
+
+.dropbtn {
+    background-color: black;
+    color: gold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+background-color: black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: black;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content option {
+color: gold;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content option:hover {
+background-color: gold;
+color: black;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+img{
+    border-radius: 50%;
+}
+
+.all{
+    display: inline;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.review {
+
+    width: 350px;
+    height: 550px;
+    padding: 10px;
+    margin-top: 70px;
+    border: 5px solid;
+    /*border-image: linear-gradient(to right, #d3a745, #faf49e, #c99250,#fceda7);*/
+    margin-right: 15px;
+    margin-left:10px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    box-shadow: 0 0 15px 10px rgba(208, 143, 3, 0.964);
+    border-radius: 10px;
+}
+
+.review:hover {
+    background:linear-gradient(to right, #ECC440,#FFFA8A, #DDAC17,#FFFF95) ; 
+    transition: height 0.7s ease-in-out;
+    color:black;
+    
+}
+
+.review:hover .rating .heart{
+    color: black;
+}
+
+
+.review:hover .name {
+    color: black;
+}
+
+.review:hover .para{
+    color: black;
+}
+
+
+.review:hover::before {
+    height: 20px; 
+}
+
+
+p{
+    color: #FFFFFF;
+    font-family: serif;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 25px;
+    align-items:left;
+}
+
+.rating{
+    align-items: left;
+}
+
+.heart{
+    display: inline;
+    color: gold;
+}
+
+#section02{
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: 70vh;
+}
+
+.container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between;
+  }
+  
+.box {
+    width: 45%; /* Set width for each box */
+    height: 70vh; /* Set height for each box */
+    background-color: transparent; /* Set background color */ 
+    border-radius: 5%;
+    margin-right: 10px; /* Add margin to the right of each box */
+    margin-left: 20px;
+    border: 2px solid gold;
+    
+}
+
+.box:last-child {
+  margin-right: 20px; /* Remove margin from the last box */
+}
+
+
+.form-group{
+    padding: 20px;
+    position: relative;
+    margin: 1px 0;
+    align-items: flex-start;
+    
+}
+
+.box:last-child .form-group:last-child {
+    margin-bottom: 0; /* Remove margin bottom for the last .form-group */
+}
+
+.boxpara{
+    font-size: 20px;
+    color: gold;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    align-items: center;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid gold;
+    background-color: transparent;
+    color: gold;
+    transition: 0.15s all ease;
+    width: calc(100% - 40px); /* Adjust width */
+}
+
+
+.form-group input[type="Your thoughts"] {
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid gold;
+    background-color: transparent;
+    color: gold;
+    transition: 0.15s all ease;
+    width: calc(100% - 40px); /* Adjust width */
+    height: 100px; /* Increase height */
+}
+
+.form-group input:focus{
+    border-color: gold;
+    background-color:transparent;
+    color: gold;
+}
+
+.form-group input::placeholder{
+    color: transparent;
+}
+
+.form-group .form-label{
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    font-size: 18px;
+    padding:20px;
+    color: gold;
+    pointer-events: none;
+    transition: 0.15s all ease;
+}
+
+.form-group input:focus+.form-label,.form-group input:not(:placeholder-shown)+.form-label{
+    transform: translate(5px, -30px);
+    background-color: transparent;
+    font-size: 16px;
+    color: gold;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 25px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: gold;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid gold;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 gold;
+}
+
+button:hover {
+    color: black;
+    box-shadow: inset 0 -100px 0 0 gold;
+}
+
+button:active {
+    transform: scale(0.9);
+}

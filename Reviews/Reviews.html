@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Review page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../SharedCSS/SharedCss.css" />
+    <link rel="stylesheet" href="Reviewcss.css" />
+    <link
+      rel="website icon"
+      type="png"
+      href="../SharedCSS/Logo/main-logo.jpg"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="../Main/index.html">
+          <img src="../SharedCSS/Logo/main-logo.jpg" alt="" />
+          Beauty
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../Main/index.html">Home</a></li>
+          <li><a href="../Main/index.html#try-on">Try on</a></li>
+          <li><a href="../Shop/Shop.html">Products</a></li>
+          <li><a href="../Quiz/Quiz.html">Quiz</a></li>
+          <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+          <li class="active"><a href="../Reviews/Reviews.html">Reviews</a></li>
+          <li><a href="../About us/AboutUs.html">About us</a></li>
+          <li><a href="../Sign up/SignUp.html">Sign up</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <a href="../Sign up/SignUp.html">
+          <img
+            src="../SharedCSS/Logo/profile.png"
+            alt="click here to go to the profile"
+          />
+        </a>
+        <a href="../Shop/Shop.html">
+          <img
+            src="../SharedCSS/Logo/cart.png"
+            alt="click here to go to the cart"
+          />
+        </a>
+      </div>
+    </header>
+    <div class="dropdown" style="margin-top: 30px;">
+      <button onclick="myFunction()" class="dropbtn">Background Color</button>
+      <div id="myDropdown" class="dropdown-content">
+        <option id="black">Black</option>
+        <option id="white">White</option>
+        <option id="gold">Gold</option>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="myFunctionText()" class="dropbtn">Text Color</button>
+      <div id="myDropdownText" class="dropdown-content">
+        <option id="Tblack">Black</option>
+        <option id="Twhite">White</option>
+        <option id="Tgold">Gold</option>
+      </div>
+    </div>
+
+    <section id="section01">
+      <!-- reviews display by xml files -->
+    </section>
+
+    <section id="section02">
+      <div class="container">
+        <div class="box">
+          <p class="boxpara">
+            Join us on the Beauty to an effortless glow.<br />
+            Glaze your inbox with tips, tricks & exclusive content from us.<br />
+            Unlock beauty secrets - subscribe now and glow with us!
+          </p>
+
+          <form id="registration-form" class="Vform">
+            <div class="form-group">
+              <input
+                type="text"
+                id="fullname"
+                placeholder="Full name"
+                autocomplete="off"
+              />
+              <label class="form-label"> Full name</label>
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="E-mail"
+                autocomplete="off"
+              />
+              <label class="form-label"> E-mail</label>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="box">
+          <p class="boxpara" style="text-align: center; font-size: 30px">
+            What do you think about us
+          </p>
+
+          <form id="feedback-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="feedback-name"
+                placeholder="Full name"
+                autocomplete="off"
+              />
+              <label class="form-label">Full name</label>
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="feedback-mail"
+                placeholder="E-mail"
+                autocomplete="off"
+              />
+              <label class="form-label">E-mail</label>
+            </div>
+            <div class="form-group">
+              <input
+                type="Your thoughts"
+                id="description"
+                placeholder="Your thoughts"
+                autocomplete="off"
+              />
+              <label class="form-label">Your thoughts</label>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="footer" style="margin-top: 90px">
+      <footer>
+        <div id="f-content">
+          <div id="f-col1">
+            <p><a href="../Main/index.html" id="f-topic">Beauty.com</a></p>
+            <address>
+              <a href="mailto:hello@beauty.com">hello@beauty.com</a>
+            </address>
+            <br />
+            <p>
+              123 Ramakrishna Road, <br />
+              Bambalapitiya, <br />
+              Sri Lanka
+            </p>
+            <p>123-456-7890</p>
+          </div>
+          <div id="f-col2">
+            <a href="../About us/AboutUs.html">About us</a><br />
+            <a href="../Main/index.html#try-on">Try on</a><br />
+            <a href="../Shop/Shop.html">Products</a><br />
+            <a href="../Quiz/Quiz.html">Quiz</a><br />
+            <a href="../Gallery/Gallery.html">Gallery</a><br />
+            <a href="../Reviews/reviews.html">Reviews</a><br />
+          </div>
+          <div id="f-col3">
+            <a href="../EditorsPage/Student4.html" target="_blank" class="line"
+              >Page Editor</a
+            ><br />
+            <a href="mailto:hello@beauty.com" class="line">Contact us</a><br />
+            <a href="../Sign up/SignUp.html">Join us</a><br />
+          </div>
+          <div id="f-col4">
+            <p>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="../SharedCSS/Logo/facebook.png" alt="facebook logo"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="../SharedCSS/Logo/instagram.png"
+                  alt="instagram logo"
+              /></a>
+              <a href="https://www.pinterest.com/" target="_blank"
+                ><img
+                  src="../SharedCSS/Logo/pinterest.png"
+                  alt="pinterest logo"
+              /></a>
+              <a href="https://web.whatsapp.com/" target="_blank"
+                ><img src="../SharedCSS/Logo/whatsapp.png" alt="whatsapp logo"
+              /></a>
+              <a href="../EditorsPage/Student4.html" target="_blank"
+                ><img src="../SharedCSS/Logo/pen.png" alt="page editor logo"
+              /></a>
+            </p>
+          </div>
+        </div>
+        <p id="copyrights">
+          <a href="../About us/AboutUs.html">&#169; 2024 D.O.G.S GROUP</a>
+        </p>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

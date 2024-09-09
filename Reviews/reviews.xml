@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="review.css"?>
+
+<reviews>
+    <review>
+        <profile>images/person1.png</profile>
+        <name>Anne Smith</name>
+        <rating>5</rating>
+        <description>Beauty.com is a haven for beauty enthusiasts, offering a curated selection of skincare, makeup, and fragrance products. With its user-friendly interface and extensive range of high-quality brands, navigating the site is a breeze. From must-have essentials to luxurious indulgences, Beauty.com caters to every beauty need with precision and elegance, making it a go-to destination for anyone looking to elevate their beauty routine.</description>
+    </review>
+    <review>
+        <profile>images/person2.png</profile>
+        <name>Jessica Davis</name>
+        <rating>4</rating>
+        <description>Beauty.com boasts an impressive array of top-tier beauty products that cater to every aspect of self-care. From nourishing skincare essentials to vibrant makeup palettes and intoxicating fragrances, their collection is meticulously curated to meet the diverse needs and desires of beauty enthusiasts. With a focus on quality and innovation, Beauty.com offers an unparalleled selection of brands and products that promise to enhance both outer beauty and inner confidence. Whether you're seeking a transformative skincare routine or a bold new makeup look, Beauty.com is your one-stop destination for all things beauty.</description>
+    </review>
+    <review>
+        <profile>images/person3.png</profile>
+        <name>Justin Foley</name>
+        <rating>4</rating>
+        <description>At Beauty.com, exceptional service is not just a promise but a commitment. From the moment you land on their website, you're greeted with a seamless and personalized experience designed to make your beauty journey effortless. Their knowledgeable customer service team is always on hand to provide expert guidance and assistance, ensuring that every shopping experience is smooth and satisfying. With fast and reliable shipping, hassle-free returns, and a dedication to customer satisfaction, Beauty.com goes above and beyond to ensure that every customer feels valued and cared for.</description>
+    </review>
+    <review>
+        <profile>images/person4.png</profile>
+        <name>Hannah Baker</name>
+        <rating>5</rating>
+        <description>Beauty.com emerges as a premier destination for beauty aficionados, offering an extensive array of skincare, makeup, and fragrance products. With its intuitive interface and comprehensive selection, navigating the website is effortless, allowing users to explore a diverse range of brands and products tailored to their preferences. Beauty.com's commitment to quality and authenticity shines through its curated selection, ensuring that every purchase meets stringent standards.</description>
+    </review>
+    <review>
+        <profile>images/person5.png</profile>
+        <name>Peter Parker</name>
+        <rating>5</rating>
+        <description>
+            Discover the epitome of beauty indulgence at Beauty.com, where luxury meets accessibility. Immerse yourself in a curated selection of skincare, makeup, and fragrances meticulously sourced from renowned brands worldwide. With an unwavering commitment to excellence, Beauty.com offers a seamless online shopping experience tailored to elevate your beauty regimen. Explore their extensive range of products and embark on a journey of self-discovery, confidence, and unparalleled elegance with Beauty.com.</description>
+    </review>
+</reviews>

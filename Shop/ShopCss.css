@@ -1,0 +1,250 @@
+main {
+  font-family: "Noto Serif";
+  display: flex;
+  margin: 6vh 0;
+}
+h1 {
+  background: linear-gradient(to right, #eec440, #fffa8a, #ddac17, #ffff95);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+aside {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 25vw;
+  border-left: 0.5px solid rgba(221, 172, 23, 0.297);
+}
+section {
+  text-align: center;
+  width: 75vw;
+}
+
+h1 {
+  background: linear-gradient(to right, #eec440, #fffa8a, #ddac17, #ffff95);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2rem;
+  margin: 3%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5%;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 13.5vw;
+}
+
+.column img {
+  width: 13.5vw;
+  height: 13.5vw;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#pic1 {
+  background: url("/Shop/Products/Metallic Shine Lipstick - Virtual Violet.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    no-repeat 50% / cover;
+}
+
+.item {
+  margin-bottom: 9%;
+}
+
+.item h4 {
+  background: linear-gradient(to right, #eec440, #fffa8a, #ddac17, #ffff95);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 1%;
+}
+
+.item p {
+  background: linear-gradient(to right, #eec440, #fffa8a, #ddac17, #ffff95);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 2%;
+}
+
+.price-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-order-button {
+  background: linear-gradient(to bottom);
+  border: none;
+  margin: 3%;
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 4px;
+  padding: 4.5px 13px;
+  cursor: pointer;
+  color: black;
+  background-image: linear-gradient(to bottom right, khaki, darkkhaki);
+  opacity: 0.65;
+}
+
+.place-order-button:hover {
+  background-image: linear-gradient(to bottom right, #f9db77, #fdd55e);
+  opacity: 0.65;
+  box-shadow: 0 0 4px rgba(242, 217, 14, 0.4), 0 0 8px rgba(244, 202, 76, 0.4),
+    0 0 16px rgba(244, 202, 76, 0.4), 0 0 32px rgba(244, 202, 76, 0.4),
+    0 0 64px rgba(244, 202, 76, 0.4);
+}
+
+.shop-btn {
+  background: linear-gradient(to bottom);
+  border: none;
+  margin: 3%;
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 4px;
+  padding: 4.5px 13px;
+  cursor: pointer;
+  color: black;
+  background-image: linear-gradient(to bottom right, khaki, darkkhaki);
+  opacity: 0.65;
+}
+
+.shop-btn:hover {
+  background-image: linear-gradient(to bottom right, #f9db77, #fdd55e);
+  opacity: 0.65;
+  box-shadow: 0 0 4px rgba(242, 217, 14, 0.4), 0 0 8px rgba(244, 202, 76, 0.4),
+    0 0 16px rgba(244, 202, 76, 0.4), 0 0 32px rgba(244, 202, 76, 0.4),
+    0 0 64px rgba(244, 202, 76, 0.4);
+}
+
+aside button {
+  margin: 0 4%;
+}
+
+.buttons-size-class {
+  position: absolute;
+  top: 20vh;
+  left: 70vw;
+}
+
+.front-button {
+  font-weight: 900;
+  width: 34px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1%;
+}
+
+.cart-item button {
+  background: linear-gradient(to bottom);
+  border: none;
+  margin: 3%;
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 4.5px 13px;
+  cursor: pointer;
+  color: black;
+  background-image: linear-gradient(to bottom right, khaki, darkkhaki);
+  opacity: 0.65;
+  margin-left: 10px;
+  height: 40px;
+}
+
+.cart-item button img {
+  width: 30px;
+  height: 30px;
+}
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+  background: linear-gradient(to right, #eec440, #fffa8a, #ddac17, #ffff95);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.cart-item-details {
+  margin: 1% 0.25%;
+  margin-right: 10px;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #eec440, #fffa8a, #ddac17, #ffff95);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.cart-column {
+  margin: 4%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cart-column-name {
+  width: 150px;
+  text-align: left;
+}
+
+.cart-column-prize {
+  margin-right: 3%;
+}
+
+.form-group {
+  width: fit-content;
+  position: relative;
+  margin: 0;
+}
+
+.form-group input {
+  width: 24px;
+  padding: 6px 8px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid rgb(184, 177, 78);
+  background-color: transparent;
+  color: rgb(184, 177, 78);
+  transition: all 0.5s ease;
+}
+
+.form-group input:focus,
+textarea:focus {
+  border-color: rgb(184, 177, 78);
+}
+
+.form-group input::placeholder,
+textarea::placeholder {
+  color: transparent;
+}
+
+.form-group .form-label {
+  position: absolute;
+  top: 14px;
+  left: 8px;
+  font-size: 18px;
+  padding: 0 10px;
+  color: rgb(184, 177, 78);
+  pointer-events: none;
+  transition: 0.15s all ease;
+}
+
+.form-group input:focus + .form-label,
+.form-group input:not(:placeholder-shown) + .form-label,
+textarea:focus + .form-label,
+textarea:not(:placeholder-shown) + .form-label {
+  transform: translate(5px, -22px);
+  background-color: transparent;
+  font-size: 14px;
+  color: rgb(184, 177, 78);
+}
